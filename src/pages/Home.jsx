@@ -10,16 +10,13 @@ const Home = () => {
 	return (
 		<div
 			className='relative h-screen bg-cover bg-center'
-			style={{
-				backgroundImage:
-					"url('https://s3-alpha-sig.figma.com/img/c71a/ddf0/0e91bbd725612ba2f3cef5f90a8a7cd6?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=mPlsFDDvOXiujD5xnwsGWLP8ouVFs3QHahzAoFmEsAHG~FmTb5ffzLtKOOsi4u2dYZoZQ7X88WdD9rLOe-eGR0~wTYrcKMqO9N3TJWhcxL0ETH-0KuXXFfn7HsDNIQtGNZaSG0oHSME0a9vpznGskeJ2nRVql4Zs~qCwGzK5H4jUpi0FQb2rd6RtQite1ZGifkA1gALH8bbrdkrv1RMqOBROBwWkUdYfwZid-Bvc57CMwZO-3rax04ybZX35Ux5btnIDsgIPfPaw8BxqyEO3QmqdZzI-itPKEDF7vxjyWmf2PHVCsF~edDdujqgL9jImsleD8DTMF-OoyK2MzoizGA__')",
-			}}
+			style={{ backgroundImage: "url('/HomePage.jpeg')" }}
 		>
 			{/* Overlay */}
 			<div className='absolute inset-0 bg-black opacity-50'></div>
 
 			{/* Fixed Top Bar */}
-			<div className='fixed top-0 left-0 right-0 flex justify-between items-center p-4  z-50'>
+			<div className='fixed  top-0 left-0 right-0 flex justify-between items-center p-4  z-50'>
 				<span>
 					<GiHamburgerMenu className='w-[30px] h-[30px] text-white' />
 				</span>
@@ -33,7 +30,7 @@ const Home = () => {
 			</div>
 
 			{/* Main content section */}
-			<div className='h-full pt-16'>
+			<div className='h-full pt-16 relative'>
 				<h2
 					className='
 				text-white text-2xl font-bold mb-4 text-left m-2 '
@@ -77,7 +74,7 @@ const Home = () => {
 					</h2>
 					<div className='relative mt-8 w-full'>
 						{/* Slider Container */}
-						<div className='grid grid-cols-5 gap-4'>
+						<div className='grid grid-cols-5'>
 							{/* Images */}
 							<div className='flex flex-col items-center'>
 								<img

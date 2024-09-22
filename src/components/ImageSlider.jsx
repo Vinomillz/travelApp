@@ -28,22 +28,50 @@ const ImageSlider = () => {
 				<img
 					src={"/Rectangle 3.png"}
 					alt='Image 1'
-					className='w-72 h-80 object-cover rounded-lg shadow-lg ml-6'
+					className='
+    w-full h-48               /* Default for small screens (mobile) */
+    sm:w-56 sm:h-64           /* For screens >= 640px */
+    md:w-64 md:h-72           /* For screens >= 768px */
+    lg:w-72 lg:h-80           /* For screens >= 1024px */
+    xl:w-80 xl:h-96           /* For screens >= 1280px */
+    object-cover rounded-lg shadow-lg
+  '
 				/>
 				<img
 					src={"/Rectangle 3 (1).png"}
 					alt='Image 2'
-					className='w-72 h-80 object-cover rounded-lg shadow-lg'
+					className='
+    w-full h-48               /* Default for small screens (mobile) */
+    sm:w-56 sm:h-64           /* For screens >= 640px */
+    md:w-64 md:h-72           /* For screens >= 768px */
+    lg:w-72 lg:h-80           /* For screens >= 1024px */
+    xl:w-80 xl:h-96           /* For screens >= 1280px */
+    object-cover rounded-lg shadow-lg
+  '
 				/>
 				<img
 					src={"/Rectangle 3 (2).png"}
 					alt='Image 3'
-					className='w-72 h-80 rounded-lg shadow-lg'
+					className='
+    w-full h-48               /* Default for small screens (mobile) */
+    sm:w-56 sm:h-64           /* For screens >= 640px */
+    md:w-64 md:h-72           /* For screens >= 768px */
+    lg:w-72 lg:h-80           /* For screens >= 1024px */
+    xl:w-80 xl:h-96           /* For screens >= 1280px */
+    object-cover rounded-lg shadow-lg
+  '
 				/>
 				<img
 					src={"/Rectangle 3 (3).png"}
 					alt='Image 4'
-					className='w-72 h-80 object-cover rounded-lg shadow-lg'
+					className='
+    w-full h-48               /* Default for small screens (mobile) */
+    sm:w-56 sm:h-64           /* For screens >= 640px */
+    md:w-64 md:h-72           /* For screens >= 768px */
+    lg:w-72 lg:h-80           /* For screens >= 1024px */
+    xl:w-80 xl:h-96           /* For screens >= 1280px */
+    object-cover rounded-lg shadow-lg
+  '
 				/>
 			</div>
 

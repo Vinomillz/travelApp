@@ -5,10 +5,7 @@ const Explore = () => {
 	return (
 		<div
 			className='relative flex flex-col h-screen bg-cover bg-center'
-			style={{
-				backgroundImage:
-					"url('https://s3-alpha-sig.figma.com/img/5db4/8f00/93f0ebbd1297b5084ce639dc13eb5bab?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=iYzJNlvVbRh2bRr4JSzLVsCuG49SZiQk4Lw0mgy5upb5MRxFgbmL28K6h1S~g6NRgS~a1YTP7NVkN6RcQNtGoQUv8PR0OY84sVi5ca9xnPexUPVcpxzLHGM7KKxhmDglUiMAj2BihISlhGrbJwdwbRIrplo0B4OBDheMwbwJ5InxgtxLJREY~EAosU9QS9ElVwIfyF3O2FshktV2q8tc5QZ~8CnvY3rSw5WUT7hwx6v72rTWja5bimyuWhvnEs5WXQ9RC4Jy1dqpqPV77EFwZmkVdX24Vksgs2n5AGm6um5LWTY5rL5vgEdRbCslVEpPegZlhvdBlUO~d5eOF3B3eg__')",
-			}}
+			style={{ backgroundImage: "url('/homebackground.jpeg') " }}
 		>
 			{/* Text Section */}
 			<div className='flex flex-col items-center justify-center flex-grow text-center'>
@@ -21,7 +18,7 @@ const Explore = () => {
 			</div>
 
 			{/* Button Section */}
-			<div className='flex justify-center mb-10'>
+			<div className='flex justify-center'>
 				<button className='w-[64px] h-[100px] rounded-full bg-blue-500 flex items-center justify-center relative'>
 					<div className='absolute bottom-4 animate-bounce'>
 						<BiChevronUp className='text-white text-2xl' />
